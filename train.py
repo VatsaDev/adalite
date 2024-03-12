@@ -8,6 +8,7 @@ import torch
 from torch.optim import Optimizer
 from torch.nn.parallel import DistributedDataParallel as DDP
 from torch.distributed import init_process_group, destroy_process_group
+import torch.nn.functional as F
 
 from model import GPTConfig, GPT
 
