@@ -1,11 +1,11 @@
 # Adalite
 Using the Adalite optimizer on nanogpt, like Lilith, but with less mem usage
 
-
-
 ## Running tests
 
- - Test 4, going lower, lr 8e-5, 
+ - Test 4, going lower, lr 8e-5 and 1e-5, but it appears that the lr is too low for a signifigant change at 1e-5, but it may have a lower final loss compared to other lrs if allowed to run more steps?
+
+![Screen Shot 2024-03-12 at 12 58 35 AM](https://github.com/VatsaDev/adalite/assets/71975550/aa11253c-066b-4e78-a909-ecc96172663b)
 
  - Test 3, wait what? a lower lr of 1e-4 keeps loss at a stable drop, and val loss is better than adam by about ~0.2?
 
